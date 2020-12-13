@@ -53,5 +53,3 @@ foreach($lines as $line) {
 
 $sum = abs($xShip) + abs($yShip);
 echo "Sum of x und y: $sum<br>";
-
-// Too low: 32682
