@@ -5,7 +5,6 @@ $lines=file($path);
 $time=trim($lines[0]);
 $busesLine=trim($lines[1]);
 $bussesArray=explode(",",$busesLine);
-$busses = array();
 $lowestDiff = $time;
 $lowestDiffBusId = -1;
 foreach($bussesArray as $bus) {
